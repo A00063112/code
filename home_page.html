@@ -2,6 +2,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @media (width < 600px) {
+        body {
+            font-size: 15px;
+        }
+        h1 {
+            font-size: 25px:
+        }
+    }
+    @media (min-width: 600px) and (max-width: 1024px) {
+        body {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+    }
+    @media (width > 1024px) {
+        body {
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+    }
     <title>Snow Trails Travel Agency</title>
 
     <style>
@@ -67,6 +92,7 @@
             padding: 10px;
         }
     </style>
+}
 </head>
 <body>
 
@@ -78,9 +104,6 @@
         <a href="#home">Home</a>
         <a href="#destinations">Destinations</a>
         <a href="#offers">Special Offers</a>
-        gap: 30px;
-        padding: 10;
-        background-color: darkblue;
     </nav>
     <main id="home">
 
