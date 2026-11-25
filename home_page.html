@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snow Trails Travel Agency</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #589acc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: #5bd9e7;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(0, 255, 234);
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .resort {
+            background-color: white;
+            margin: 15px auto;
+            padding: 15px;
+            max-width: 600px;
+            border-radius: 15px;
+        }
+
+        .resort img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #5af1ff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color darkblue 0.5s; 
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        footer {
+            background-color: #00ffee;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Snow Trails Travel Agency</h1>
+        <p>Book your next trip away with your friends and familt today!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        a:hover:{
+            color: red
+        }
+        <a href="#destinations">Destinations</a>
+        a:hover:{
+            color: red
+        }
+        <a href="#offers">Special Offers</a>
+        a:hover:{
+            color: red
+        }
+        gap: 30px;
+        padding: 15px;
+        background-color: darkblue;
+    </nav>
+    <main id="home">
+
+        <h2>Book Your Next Ski Holiday Now</h2>
+        <p>
+            Explore some of the best ski resorts around the world with us, Snow Trails
+            Travel Agency!
+        </p>
+        <section id="destinations">
+            <div class="resort">
+                <h2>Switzerland</h2>
+
+                <img src="https://images.unsplash.com/photo-1517299321609-52687d1bc55a?w=800"
+                     alt="Snow covered mountains">
+
+                <p>Experience breathtaking mountains,
+                beautiful scenery and world-class skiing.</p>
+                <p><strong>From €799 per person</strong></p>
+                <button>Explore Destination</button>
+            </div>
+
+            <div class="resort">
+                <h2>France</h2>
+                <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800"
+                     alt="Mountain ski resort">
+
+                <p>Enjoy fantastic slopes, mountain views
+                and unforgettable winter adventures.</p>
+                <p><strong>From €899 per person</strong></p>
+                <button>Explore Destination</button>
+            </div>
+        </section>
+
+        <section id="offers">
+            <h2>Winter Offers</h2>
+
+            <p>Book your next ski adventure today
+            and receive up to 10% off selected holidays!</p>
+
+            <button>View Our Offers</button>
+    </main>
+</body>
+</html>
